@@ -87,11 +87,10 @@ function  validProposal( person1 , person2 ) {
     }
 }
 
+// let b = validProposal( { name: "mitu", gender: "male", age: 32 }, "Mizan" );
+// console.log(b)
 
 
-let b = validProposal( { name: "mitu", gender: "male", age: 32 }, "Mizan" )
-console.log(b)
-
-
+/**--------Problem-5--------- */
 
 
