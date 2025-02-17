@@ -55,3 +55,17 @@ function  willSuccess( marks ) {
     }
 }
 
+
+
+
+function  validProposal( person1 , person2 ) {
+    if(typeof person1 !== "object" || person1 === null || typeof person2 !== "object" || person2 === null)
+        {
+        return "Invalid";
+    }
+   if(person1.gender === person2.gender || Math.abs(person1.age - person2.age) > 7){
+        return false; 
+    } else{
+    return true;
+    }
+}
